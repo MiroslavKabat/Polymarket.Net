@@ -86,6 +86,12 @@ namespace Polymarket.Net.Interfaces.Clients.ClobApi
 
         /// <summary>
         /// Get balance allowance
+        /// <para>
+        /// Docs:<br />
+        /// <a href="https://docs.polymarket.com/trading/clients/l2#getbalanceallowance" /><br />
+        /// Endpoint:<br />
+        /// GET /balance-allowance
+        /// </para>
         /// </summary>
         /// <param name="assetType">["<c>asset_type</c>"] Asset type</param>
         /// <param name="tokenId">["<c>token_id</c>"] Token id, required for AssetType.Conditional</param>

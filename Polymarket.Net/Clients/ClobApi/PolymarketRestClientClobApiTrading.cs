@@ -138,6 +138,7 @@ namespace Polymarket.Net.Clients.ClobApi
                 orderParameters.AddMillisecondsString("timestamp", DateTime.UtcNow);
                 orderParameters.Add("metadata", "0x0000000000000000000000000000000000000000000000000000000000000000");
                 orderParameters.Add("builder", builderCode!);
+                orderParameters.AddEnum("side", request.Side);
                 orderParameters.Add("signatureType", (int)credentials.L1.SignType);
                 orderParameters.Add("signature",
                     _baseClient.AuthenticationProvider.GetOrderSignature(
