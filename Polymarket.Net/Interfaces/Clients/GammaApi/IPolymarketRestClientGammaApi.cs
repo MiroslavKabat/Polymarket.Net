@@ -213,8 +213,8 @@ namespace Polymarket.Net.Interfaces.Clients.GammaApi
         /// <param name="volumeMax">["<c>volume_max</c>"] Filter by max volume</param>
         /// <param name="startTimeMin">["<c>start_date_min</c>"] Filter start time by min value</param>
         /// <param name="startTimeMax">["<c>start_date_max</c>"] Filter start time by max value</param>
-        /// <param name="endTimeMin">["<c>end_data_min</c>"] Filter end time by min value</param>
-        /// <param name="endTimeMax">["<c>end_data_max</c>"] Filter end time by max value</param>
+        /// <param name="endTimeMin">["<c>end_date_min</c>"] Filter end time by min value</param>
+        /// <param name="endTimeMax">["<c>end_date_max</c>"] Filter end time by max value</param>
         /// <param name="limit">["<c>limit</c>"] Max number of results</param>
         /// <param name="offset">["<c>offset</c>"] Result offset</param>
         /// <param name="orderBy">["<c>order</c>"] Order by fields</param>
@@ -322,8 +322,8 @@ namespace Polymarket.Net.Interfaces.Clients.GammaApi
         /// <param name="volumeMax">["<c>volume_max</c>"] Filter by max volume</param>
         /// <param name="startTimeMin">["<c>start_date_min</c>"] Filter start time by min value</param>
         /// <param name="startTimeMax">["<c>start_date_max</c>"] Filter start time by max value</param>
-        /// <param name="endTimeMin">["<c>end_data_min</c>"] Filter end time by min value</param>
-        /// <param name="endTimeMax">["<c>end_data_max</c>"] Filter end time by max value</param>
+        /// <param name="endTimeMin">["<c>end_date_min</c>"] Filter end time by min value</param>
+        /// <param name="endTimeMax">["<c>end_date_max</c>"] Filter end time by max value</param>
         /// <param name="limit">["<c>limit</c>"] Max number of results</param>
         /// <param name="offset">["<c>offset</c>"] Result offset</param>
         /// <param name="orderBy">["<c>order</c>"] Order by fields</param>

@@ -298,8 +298,8 @@ namespace Polymarket.Net.Clients.GammaApi
             parameters.AddOptionalString("volume_max", volumeMax);
             parameters.AddOptionalString("start_date_min", startTimeMin);
             parameters.AddOptionalString("start_date_max", startTimeMax);
-            parameters.AddOptionalString("end_data_min", endTimeMin);
-            parameters.AddOptionalString("end_data_max", endTimeMax);
+            parameters.AddOptionalString("end_date_min", endTimeMin);
+            parameters.AddOptionalString("end_date_max", endTimeMax);
 
             parameters.AddOptionalCommaSeparated("order", orderBy);
             parameters.AddOptionalBoolString("ascending", ascending);
@@ -407,8 +407,8 @@ namespace Polymarket.Net.Clients.GammaApi
             parameters.AddOptionalString("volume_max", volumeMax);
             parameters.AddOptionalString("start_date_min", startTimeMin);
             parameters.AddOptionalString("start_date_max", startTimeMax);
-            parameters.AddOptionalString("end_data_min", endTimeMin);
-            parameters.AddOptionalString("end_data_max", endTimeMax);
+            parameters.AddOptionalString("end_date_min", endTimeMin);
+            parameters.AddOptionalString("end_date_max", endTimeMax);
 
             parameters.AddOptionalCommaSeparated("order", orderBy);
             parameters.AddOptionalBoolString("ascending", ascending);
